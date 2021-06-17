@@ -53,33 +53,33 @@ const { removeBackgroundFromImageFile } = require('remove.bg')
 const { ind } = require('./akira')
 
 //apikey
-const apivhtear = 'AkiraGithub' // Vhtear Beli Sendiri Yoo
+const apivhtear = "sayahafiz" // Vhtear Beli Sendiri Yoo
 const ZeksApi = 'apivinz'
 const apileys = 'demo'
 const TobzKey = 'BotWeA'
-const lolhuman = 'AkiraYT' //Free Trial 3 day
+const lolhuman = 'sayahafiz' //Free Trial 3 day
 const onlydev = 'YTAkira' //Free Apikey
 const xteam = 'AkiraBotWa' //Free Trial 3 day
-const namabot = 'Akira Bot'
+const namabot = 'Yan Bot'
 
 //kontak
 const vcard = 'BEGIN:VCARD\n'  //Jangan diganti,Ntar error
             + 'VERSION:3.0\n'  //Jangan diganti,Ntar error
-            + 'FN:Akira\n'  // Ganti jadi namamu
+            + 'FN:YAN GANZ\n'  // Ganti jadi namamu
             + 'ORG:Pengembang ${namabot};\n'  // Ganti jadi namamu/Botmu
-            + 'TEL;type=CELL;type=VOICE;waid=6282158549899:+6282158549899\n'  // Ganti jadi nomormu, tapi jangan ubah polanya
+            + 'TEL;type=CELL;type=VOICE;waid=62895413606266:+62895413606266\n'  // Ganti jadi nomormu, tapi jangan ubah polanya
             + 'END:VCARD' // Jangan diganti,Ntar Error
             
 //settings            
-prefix = '#'
+prefix = 'x'
 blocked = []   
 limitawal = '500' //Terserah Mo Ganti apa kgk
 memberlimit = 1 //Terserah Mo Ganti apa kgk
-cr = '*Akira Bot By Akira*'
-vr = '*Akira Bot Wa*\n*Subscribe Akira*'
+cr  = '*YAN BOT GANZ*'
+vr = '*YAN BOT*'
 
 //owner number
-const ownerNumber = ["6282158549899@s.whatsapp.net"]  //Ganti Jadi Nomormu
+const ownerNumber = ["62895413606266@s.whatsapp.net"]  //Ganti Jadi Nomormu
 
 //file json
 const _leveling = JSON.parse(fs.readFileSync('./database/group/leveling.json'))
